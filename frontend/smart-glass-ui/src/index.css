@@ -305,3 +305,22 @@
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(250, 204, 21, 0.4);
 }
+
+.smartglass-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.smartglass-percent {
+  font-weight: 600;
+  color: #1a3552;
+  font-size: 1.1rem;
+}
+
+.smartglass-input {
+  width: 100px; /* antes era 70px */
+  text-align: center;
+}
